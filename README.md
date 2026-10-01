@@ -22,7 +22,7 @@ A small PySpark project with automated testing through GitHub Actions.
 ## CI
 
 `.github/workflows/ci.yml` runs on every Pull Request (opened, updated or reopened). It sets up Java 17 and Python 3.11, installs `requirements.txt`, and runs `pytest -v`.
-
+![CI passed](Task34_PySpark_CI_PR_passed.png)
 ## Run locally
 
 ```
